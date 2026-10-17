@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FlipBrief Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <h1>FlipBrief Connector</h1>
+      <label>Host</label>
+      <input id="host" value="127.0.0.1" />
+      <label>Port</label>
+      <input id="port" type="number" value="51760" />
+      <label>Token</label>
+      <input id="token" type="password" placeholder="Paste token from FlipBrief" />
+      <div class="actions">
+        <button id="save">Save</button>
+        <button id="test" class="ghost">Test</button>
+      </div>
+      <p id="status"></p>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

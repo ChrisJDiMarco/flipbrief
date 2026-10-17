@@ -1,0 +1,43 @@
+# Dependencies and caches
+node_modules/
+.next/
+.vercel/
+.wrangler/
+.cache/
+coverage/
+__pycache__/
+.venv/
+venv/
+
+# Build output (regenerable)
+out/
+dist/
+build/
+.build/
+DerivedData/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+
+# Packaged builds
+*.app/
+*.dmg
+*.ipa
+*.zip
+
+# OS / logs
+.DS_Store
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.p12
+*.p8
+*.key
+*.mobileprovision
+credentials*.json
+auth.json
+Secrets.xcconfig
